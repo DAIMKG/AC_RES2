@@ -1,0 +1,538 @@
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX base: <http://yago-knowledge.org/resource/>
+SELECT ?count000 ?count100 ?count101 ?count102 ?count103 ?count104 ?count105 ?count106 ?count107 ?count108 ?count109 ?count1010 ?count1011 ?count1012 ?count1013 ?count1014 ?count1015 ?count1016 ?count1017 ?count1018 ?count1019 ?count1020 ?count1021 ?count1022 ?count1023 ?count1024 ?count1025 ?count1026 ?count1027 ?count1028 ?count1029 ?count1030 ?count1031 ?count1032 ?count1033 ?count1034 ?count1035 ?count1036 ?count1037 ?count1038 ?count1039 ?count110 ?count111 ?count112 ?count113 ?count114 ?count115 ?count116 ?count117 ?count118 ?count119 ?count1110 ?count1111 ?count1112 ?count1113 ?count1114 ?count1115 ?count1116 ?count1117 ?count1118 ?count1119 ?count1120 ?count1121 ?count1122 ?count1123 ?count1124 ?count1125 ?count1126 ?count1127 ?count1128 ?count1129 ?count1130 ?count1131 ?count1132 ?count1133 ?count1134 ?count1135 ?count1136 ?count1137 ?count1138 ?count1139 ?count1140 ?count1141 ?count1142 ?count1143 ?count1144 ?count1145 ?count1146 ?count1147 ?count1148 ?count1149 ?count1150 ?count1151 ?count1152 ?count1153 ?count1154 ?count1155 ?count1156 ?count1157 ?count1158 ?count1159 ?count1160 ?count1161 ?count1162 ?count1163 ?count1164 ?count1165 ?count1166 ?count1167 ?count1168 ?count1169 ?count1170 ?count1171 ?count1172 ?count1173 ?count1174 ?count1175 ?count1176 ?count1177 ?count1178 ?count1179 ?count1180 ?count1181 ?count1182 ?count1183 ?count1184 ?count1185 ?count1186 ?count1187 ?count1188 ?count1189 ?count1190 ?count1191 ?count1192 ?count1193 ?count1194 ?count1195 ?count1196 ?count1197 ?count1198 ?count1199 ?count11100 ?count11101 ?count11102 ?count11103 ?count11104 ?count11105 ?count11106 ?count11107 ?count11108 ?count11109 ?count11110 ?count11111 ?count11112 ?count11113 ?count11114 ?count11115 ?count11116 ?count11117 ?count11118 ?count11119 ?count11120 ?count11121 ?count11122 ?count11123 ?count11124 ?count11125 ?count11126 ?count11127 ?count11128 ?count11129 ?count11130 ?count11131 ?count11132 ?count11133 ?count11134 ?count11135 ?count200 WHERE {
+OPTIONAL {
+base:hasGender_male base:has_count ?count000	.
+}
+OPTIONAL {
+base:dealsWith_Germany base:has_count ?count100	.
+}
+OPTIONAL {
+base:dealsWith_Japan base:has_count ?count101	.
+}
+OPTIONAL {
+base:participatedIn_1959_Tibetan_uprising base:has_count ?count102	.
+}
+OPTIONAL {
+base:participatedIn_Angolan_War_of_Independence base:has_count ?count103	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_Bloody_Ridge base:has_count ?count104	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_Chosin_Reservoir base:has_count ?count105	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_Heartbreak_Ridge base:has_count ?count106	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_Hill_Eerie base:has_count ?count107	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_Kapyong base:has_count ?count108	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_Old_Baldy base:has_count ?count109	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_Pakchon base:has_count ?count1010	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_Pork_Chop_Hill base:has_count ?count1011	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_Triangle_Hill base:has_count ?count1012	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_White_Horse base:has_count ?count1013	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_the_Hook base:has_count ?count1014	.
+}
+OPTIONAL {
+base:participatedIn_Battle_of_the_Imjin_River base:has_count ?count1015	.
+}
+OPTIONAL {
+base:participatedIn_Congo_Crisis base:has_count ?count1016	.
+}
+OPTIONAL {
+base:participatedIn_Eritrean_War_of_Independence base:has_count ?count1017	.
+}
+OPTIONAL {
+base:participatedIn_Ethio-Somali_War base:has_count ?count1018	.
+}
+OPTIONAL {
+base:participatedIn_First_Battle_of_Maryang_San base:has_count ?count1019	.
+}
+OPTIONAL {
+base:participatedIn_First_Indochina_War base:has_count ?count1020	.
+}
+OPTIONAL {
+base:participatedIn_First_Taiwan_Strait_Crisis base:has_count ?count1021	.
+}
+OPTIONAL {
+base:participatedIn_Hainan_Island_incident base:has_count ?count1022	.
+}
+OPTIONAL {
+base:participatedIn_Indonesian_occupation_of_East_Timor base:has_count ?count1023	.
+}
+OPTIONAL {
+base:participatedIn_Insurgency_in_Laos base:has_count ?count1024	.
+}
+OPTIONAL {
+base:participatedIn_Internal_conflict_in_Burma base:has_count ?count1025	.
+}
+OPTIONAL {
+base:participatedIn_Korean_War base:has_count ?count1026	.
+}
+OPTIONAL {
+base:participatedIn_Laotian_Civil_War base:has_count ?count1027	.
+}
+OPTIONAL {
+base:participatedIn_Nepalese_Civil_War base:has_count ?count1028	.
+}
+OPTIONAL {
+base:participatedIn_Operation_Courageous base:has_count ?count1029	.
+}
+OPTIONAL {
+base:participatedIn_Operation_Enduring_Freedom base:has_count ?count1030	.
+}
+OPTIONAL {
+base:participatedIn_Operation_Killer base:has_count ?count1031	.
+}
+OPTIONAL {
+base:participatedIn_Operation_Ripper base:has_count ?count1032	.
+}
+OPTIONAL {
+base:participatedIn_Outpost_Harry base:has_count ?count1033	.
+}
+OPTIONAL {
+base:participatedIn_Portuguese_Colonial_War base:has_count ?count1034	.
+}
+OPTIONAL {
+base:participatedIn_Salvadoran_Civil_War base:has_count ?count1035	.
+}
+OPTIONAL {
+base:participatedIn_Shaba_I base:has_count ?count1036	.
+}
+OPTIONAL {
+base:participatedIn_Soviet_war_in_Afghanistan base:has_count ?count1037	.
+}
+OPTIONAL {
+base:participatedIn_Task_Force_Faith base:has_count ?count1038	.
+}
+OPTIONAL {
+base:participatedIn_War_on_Terror base:has_count ?count1039	.
+}
+OPTIONAL {
+base:Affymetrix_isLocatedIn base:has_count ?count110	.
+}
+OPTIONAL {
+base:Afghanistan_dealsWith base:has_count ?count111	.
+}
+OPTIONAL {
+base:Algeria_dealsWith base:has_count ?count112	.
+}
+OPTIONAL {
+base:Angola_dealsWith base:has_count ?count113	.
+}
+OPTIONAL {
+base:Armenia_dealsWith base:has_count ?count114	.
+}
+OPTIONAL {
+base:Australia_dealsWith base:has_count ?count115	.
+}
+OPTIONAL {
+base:Azerbaijan_dealsWith base:has_count ?count116	.
+}
+OPTIONAL {
+base:Bahrain_dealsWith base:has_count ?count117	.
+}
+OPTIONAL {
+base:Bangladesh_dealsWith base:has_count ?count118	.
+}
+OPTIONAL {
+base:Barbados_dealsWith base:has_count ?count119	.
+}
+OPTIONAL {
+base:Battle_of_Heartbreak_Ridge_happenedIn base:has_count ?count1110	.
+}
+OPTIONAL {
+base:Belize_dealsWith base:has_count ?count1111	.
+}
+OPTIONAL {
+base:Benin_dealsWith base:has_count ?count1112	.
+}
+OPTIONAL {
+base:Bolivia_dealsWith base:has_count ?count1113	.
+}
+OPTIONAL {
+base:Brazil_dealsWith base:has_count ?count1114	.
+}
+OPTIONAL {
+base:Burundi_dealsWith base:has_count ?count1115	.
+}
+OPTIONAL {
+base:Cambodia_dealsWith base:has_count ?count1116	.
+}
+OPTIONAL {
+base:Cameroon_dealsWith base:has_count ?count1117	.
+}
+OPTIONAL {
+base:Canada_dealsWith base:has_count ?count1118	.
+}
+OPTIONAL {
+base:Cape_Verde_dealsWith base:has_count ?count1119	.
+}
+OPTIONAL {
+base:Carbonated_Games_isLocatedIn base:has_count ?count1120	.
+}
+OPTIONAL {
+base:Chia-Chiao_Lin_livesIn base:has_count ?count1121	.
+}
+OPTIONAL {
+base:Chien-Shiung_Wu_isCitizenOf base:has_count ?count1122	.
+}
+OPTIONAL {
+base:Chih_Ree_Sun_isCitizenOf base:has_count ?count1123	.
+}
+OPTIONAL {
+base:Chih_Ree_Sun_livesIn base:has_count ?count1124	.
+}
+OPTIONAL {
+base:Chile_dealsWith base:has_count ?count1125	.
+}
+OPTIONAL {
+base:Colombia_dealsWith base:has_count ?count1126	.
+}
+OPTIONAL {
+base:Costa_Rica_dealsWith base:has_count ?count1127	.
+}
+OPTIONAL {
+base:Cuba_dealsWith base:has_count ?count1128	.
+}
+OPTIONAL {
+base:DR_Movie_isLocatedIn base:has_count ?count1129	.
+}
+OPTIONAL {
+base:Denmark_dealsWith base:has_count ?count1130	.
+}
+OPTIONAL {
+base:Dominican_Republic_dealsWith base:has_count ?count1131	.
+}
+OPTIONAL {
+base:Egypt_dealsWith base:has_count ?count1132	.
+}
+OPTIONAL {
+base:El_Salvador_dealsWith base:has_count ?count1133	.
+}
+OPTIONAL {
+base:Eos_Press_isLocatedIn base:has_count ?count1134	.
+}
+OPTIONAL {
+base:Equatorial_Guinea_dealsWith base:has_count ?count1135	.
+}
+OPTIONAL {
+base:Ethiopia_dealsWith base:has_count ?count1136	.
+}
+OPTIONAL {
+base:Finland_dealsWith base:has_count ?count1137	.
+}
+OPTIONAL {
+base:Gabon_dealsWith base:has_count ?count1138	.
+}
+OPTIONAL {
+base:Germany_dealsWith base:has_count ?count1139	.
+}
+OPTIONAL {
+base:Grenada_dealsWith base:has_count ?count1140	.
+}
+OPTIONAL {
+base:Guatemala_dealsWith base:has_count ?count1141	.
+}
+OPTIONAL {
+base:Guinea-Bissau_dealsWith base:has_count ?count1142	.
+}
+OPTIONAL {
+base:Guyana_dealsWith base:has_count ?count1143	.
+}
+OPTIONAL {
+base:Haiti_dealsWith base:has_count ?count1144	.
+}
+OPTIONAL {
+base:Hong_Kong_dealsWith base:has_count ?count1145	.
+}
+OPTIONAL {
+base:Iceland_dealsWith base:has_count ?count1146	.
+}
+OPTIONAL {
+base:India_dealsWith base:has_count ?count1147	.
+}
+OPTIONAL {
+base:Indonesia_dealsWith base:has_count ?count1148	.
+}
+OPTIONAL {
+base:Iraq_dealsWith base:has_count ?count1149	.
+}
+OPTIONAL {
+base:Israel_dealsWith base:has_count ?count1150	.
+}
+OPTIONAL {
+base:Ivory_Coast_dealsWith base:has_count ?count1151	.
+}
+OPTIONAL {
+base:Jamaica_dealsWith base:has_count ?count1152	.
+}
+OPTIONAL {
+base:Japan_dealsWith base:has_count ?count1153	.
+}
+OPTIONAL {
+base:Jordan_dealsWith base:has_count ?count1154	.
+}
+OPTIONAL {
+base:Kuwait_dealsWith base:has_count ?count1155	.
+}
+OPTIONAL {
+base:LIU_Global_isLocatedIn base:has_count ?count1156	.
+}
+OPTIONAL {
+base:Lebanon_dealsWith base:has_count ?count1157	.
+}
+OPTIONAL {
+base:Lenovo_isLocatedIn base:has_count ?count1158	.
+}
+OPTIONAL {
+base:Li_Fang-Kuei_livesIn base:has_count ?count1159	.
+}
+OPTIONAL {
+base:Liberia_dealsWith base:has_count ?count1160	.
+}
+OPTIONAL {
+base:Libya_dealsWith base:has_count ?count1161	.
+}
+OPTIONAL {
+base:Little_Vietnam_isLocatedIn base:has_count ?count1162	.
+}
+OPTIONAL {
+base:Louis_Vuitton_Pacific_Series_isLocatedIn base:has_count ?count1163	.
+}
+OPTIONAL {
+base:Macau_dealsWith base:has_count ?count1164	.
+}
+OPTIONAL {
+base:Madagascar_dealsWith base:has_count ?count1165	.
+}
+OPTIONAL {
+base:Madame_Tussauds_isLocatedIn base:has_count ?count1166	.
+}
+OPTIONAL {
+base:Malaysia_dealsWith base:has_count ?count1167	.
+}
+OPTIONAL {
+base:Maldives_dealsWith base:has_count ?count1168	.
+}
+OPTIONAL {
+base:Mauritania_dealsWith base:has_count ?count1169	.
+}
+OPTIONAL {
+base:Mauritius_dealsWith base:has_count ?count1170	.
+}
+OPTIONAL {
+base:Mongolia_dealsWith base:has_count ?count1171	.
+}
+OPTIONAL {
+base:Morocco_dealsWith base:has_count ?count1172	.
+}
+OPTIONAL {
+base:Mozambique_dealsWith base:has_count ?count1173	.
+}
+OPTIONAL {
+base:My_Blueberry_Nights_isLocatedIn base:has_count ?count1174	.
+}
+OPTIONAL {
+base:NCSOFT_isLocatedIn base:has_count ?count1175	.
+}
+OPTIONAL {
+base:Nepal_dealsWith base:has_count ?count1176	.
+}
+OPTIONAL {
+base:Netherlands_dealsWith base:has_count ?count1177	.
+}
+OPTIONAL {
+base:New_Zealand_dealsWith base:has_count ?count1178	.
+}
+OPTIONAL {
+base:Nicaragua_dealsWith base:has_count ?count1179	.
+}
+OPTIONAL {
+base:Niger_dealsWith base:has_count ?count1180	.
+}
+OPTIONAL {
+base:Nigeria_dealsWith base:has_count ?count1181	.
+}
+OPTIONAL {
+base:Norway_dealsWith base:has_count ?count1182	.
+}
+OPTIONAL {
+base:Oman_dealsWith base:has_count ?count1183	.
+}
+OPTIONAL {
+base:Pakistan_dealsWith base:has_count ?count1184	.
+}
+OPTIONAL {
+base:Panama_dealsWith base:has_count ?count1185	.
+}
+OPTIONAL {
+base:Papua_New_Guinea_dealsWith base:has_count ?count1186	.
+}
+OPTIONAL {
+base:Paraguay_dealsWith base:has_count ?count1187	.
+}
+OPTIONAL {
+base:Paul_H._Nitze_School_of_Advanced_International_Studies_isLocatedIn base:has_count ?count1188	.
+}
+OPTIONAL {
+base:Peru_dealsWith base:has_count ?count1189	.
+}
+OPTIONAL {
+base:Philippines_dealsWith base:has_count ?count1190	.
+}
+OPTIONAL {
+base:Qatar_dealsWith base:has_count ?count1191	.
+}
+OPTIONAL {
+base:Quebec_dealsWith base:has_count ?count1192	.
+}
+OPTIONAL {
+base:Republic_of_Ireland_dealsWith base:has_count ?count1193	.
+}
+OPTIONAL {
+base:Republic_of_the_Congo_dealsWith base:has_count ?count1194	.
+}
+OPTIONAL {
+base:Rush_Hour_2_isLocatedIn base:has_count ?count1195	.
+}
+OPTIONAL {
+base:Rwanda_dealsWith base:has_count ?count1196	.
+}
+OPTIONAL {
+base:Saudi_Arabia_dealsWith base:has_count ?count1197	.
+}
+OPTIONAL {
+base:Second_Sino-Japanese_War_happenedIn base:has_count ?count1198	.
+}
+OPTIONAL {
+base:Shanghai_Kiss_isLocatedIn base:has_count ?count1199	.
+}
+OPTIONAL {
+base:Sierra_Leone_dealsWith base:has_count ?count11100	.
+}
+OPTIONAL {
+base:Singapore_dealsWith base:has_count ?count11101	.
+}
+OPTIONAL {
+base:Sisters_of_Providence_of_Saint_Mary-of-the-Woods_isLocatedIn base:has_count ?count11102	.
+}
+OPTIONAL {
+base:South_Africa_dealsWith base:has_count ?count11103	.
+}
+OPTIONAL {
+base:South_Korea_dealsWith base:has_count ?count11104	.
+}
+OPTIONAL {
+base:Sri_Lanka_dealsWith base:has_count ?count11105	.
+}
+OPTIONAL {
+base:Sun_Yat-sen_isCitizenOf base:has_count ?count11106	.
+}
+OPTIONAL {
+base:Suning_Appliance_isLocatedIn base:has_count ?count11107	.
+}
+OPTIONAL {
+base:Suriname_dealsWith base:has_count ?count11108	.
+}
+OPTIONAL {
+base:Sweden_dealsWith base:has_count ?count11109	.
+}
+OPTIONAL {
+base:Switzerland_dealsWith base:has_count ?count11110	.
+}
+OPTIONAL {
+base:Thailand_dealsWith base:has_count ?count11111	.
+}
+OPTIONAL {
+base:The_Bahamas_dealsWith base:has_count ?count11112	.
+}
+OPTIONAL {
+base:The_Blood_of_Yingzhou_District_isLocatedIn base:has_count ?count11113	.
+}
+OPTIONAL {
+base:The_Forbidden_Kingdom_isLocatedIn base:has_count ?count11114	.
+}
+OPTIONAL {
+base:The_Real_Shaolin_isLocatedIn base:has_count ?count11115	.
+}
+OPTIONAL {
+base:The_Warriors_of_Qiugang_isLocatedIn base:has_count ?count11116	.
+}
+OPTIONAL {
+base:The_White_Countess_isLocatedIn base:has_count ?count11117	.
+}
+OPTIONAL {
+base:Tijanisme_isLocatedIn base:has_count ?count11118	.
+}
+OPTIONAL {
+base:Tongzhi_in_Love_isLocatedIn base:has_count ?count11119	.
+}
+OPTIONAL {
+base:Tunisia_dealsWith base:has_count ?count11120	.
+}
+OPTIONAL {
+base:Turkey_dealsWith base:has_count ?count11121	.
+}
+OPTIONAL {
+base:United_Arab_Emirates_dealsWith base:has_count ?count11122	.
+}
+OPTIONAL {
+base:United_Kingdom_dealsWith base:has_count ?count11123	.
+}
+OPTIONAL {
+base:Uruguay_dealsWith base:has_count ?count11124	.
+}
+OPTIONAL {
+base:Venezuela_dealsWith base:has_count ?count11125	.
+}
+OPTIONAL {
+base:Victor_Fung_isCitizenOf base:has_count ?count11126	.
+}
+OPTIONAL {
+base:Vietnam_dealsWith base:has_count ?count11127	.
+}
+OPTIONAL {
+base:Wales_dealsWith base:has_count ?count11128	.
+}
+OPTIONAL {
+base:Warriors_of_Virtue_isLocatedIn base:has_count ?count11129	.
+}
+OPTIONAL {
+base:William_Fung_isCitizenOf base:has_count ?count11130	.
+}
+OPTIONAL {
+base:Xiao-Gang_Wen_isCitizenOf base:has_count ?count11131	.
+}
+OPTIONAL {
+base:Yew_Chung_International_School_isLocatedIn base:has_count ?count11132	.
+}
+OPTIONAL {
+base:Yew_Chung_International_School_of_Beijing_isLocatedIn base:has_count ?count11133	.
+}
+OPTIONAL {
+base:Yew_Chung_International_School_of_Shanghai_isLocatedIn base:has_count ?count11134	.
+}
+OPTIONAL {
+base:Yu-Chi_Ho_isCitizenOf base:has_count ?count11135	.
+}
+OPTIONAL {
+base:hasGender_female base:has_count ?count200	.
+}
+}

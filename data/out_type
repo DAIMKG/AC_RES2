@@ -1,0 +1,13 @@
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX base: <http://yago-knowledge.org/resource/>
+SELECT ?type0 ?count0 ?type1 ?count1 ?type2 ?count2 WHERE {
+base:Barack_Obama rdf:type ?type0	.
+base:Xi_Jinping rdf:type ?type0	.
+?type0 base:has_count ?count0	.
+base:United_States rdf:type ?type1	.
+base:China rdf:type ?type1	.
+?type1 base:has_count ?count1	.
+base:Michelle_Obama rdf:type ?type2	.
+base:Peng_Liyuan rdf:type ?type2	.
+?type2 base:has_count ?count2	.
+}

@@ -1,0 +1,23 @@
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX base: <http://yago-knowledge.org/resource/>
+SELECT ?2 ?0 ?3 WHERE { ?3 <isMarriedTo> ?2 	.
+?2 <isPoliticianOf> ?0 	.
+?2 <hasGender> <male>	.
+?0 <participatedIn> <War_on_Terror>	.
+?0 <dealsWith> <Germany>	.
+?0 <participatedIn> <Operation_Enduring_Freedom_–_Horn_of_Africa>	.
+?0 <participatedIn> <Korean_War>	.
+?0 <participatedIn> <Operation_Enduring_Freedom>	.
+?0 <dealsWith> <Japan>	.
+?0 <participatedIn> <Internal_conflict_in_Burma>	.
+?0 <participatedIn> <Angolan_War_of_Independence>	.
+?0 <participatedIn> <Salvadoran_Civil_War>	.
+?0 <participatedIn> <Ethio-Somali_War>	.
+?2 rdf:type <wikicat_Living_people>	.
+?2 rdf:type <wordnet_officeholder_110371450>	.
+?0 rdf:type <wordnet_country_108544813>	.
+?0 rdf:type <wikicat_Member_states_of_the_United_Nations>	.
+?3 rdf:type <wikicat_Living_people>	.
+?3 rdf:type <wikicat_Women>	.
+?3 rdf:type <wordnet_first_lady_110092880>	.
+}

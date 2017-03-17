@@ -1,0 +1,22 @@
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX base: <http://yago-knowledge.org/resource/>
+SELECT ?p00 ?o00 ?s01 ?p01 ?p10 ?o10 ?s11 ?p11 ?p20 ?o20 ?s21 ?p21 WHERE {
+base:Barack_Obama ?p00 ?o00	.
+base:Xi_Jinping ?p00 ?o00	.
+OPTIONAL {
+?s01 ?p01 base:Barack_Obama	.
+?s01 ?p01 base:Xi_Jinping	.
+}
+base:United_States ?p10 ?o10	.
+base:China ?p10 ?o10	.
+OPTIONAL {
+?s11 ?p11 base:United_States	.
+?s11 ?p11 base:China	.
+}
+base:Michelle_Obama ?p20 ?o20	.
+base:Peng_Liyuan ?p20 ?o20	.
+OPTIONAL {
+?s21 ?p21 base:Michelle_Obama	.
+?s21 ?p21 base:Peng_Liyuan	.
+}
+}

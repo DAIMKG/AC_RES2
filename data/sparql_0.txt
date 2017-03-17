@@ -1,0 +1,13 @@
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX base: <http://yago-knowledge.org/resource/>
+SELECT ?2 ?0 ?3 WHERE { ?3 base:isMarriedTo ?2 	.
+?2 base:isPoliticianOf ?0 	.
+?2 base:hasGender base:male	.
+?2 rdf:type base:wikicat_Living_people	.
+?2 rdf:type base:wordnet_officeholder_110371450	.
+?0 rdf:type base:wordnet_country_108544813	.
+?0 rdf:type base:wikicat_Member_states_of_the_United_Nations	.
+?3 rdf:type base:wikicat_Living_people	.
+?3 rdf:type base:wikicat_Women	.
+?3 rdf:type base:wordnet_first_lady_110092880	.
+}

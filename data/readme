@@ -1,0 +1,13 @@
+output of maximal_common_substructure:
+s (column[s]in input if s != -1) p o (column[o]in input if o != -1)
+
+parse_csv_type.py:
+  argv[1]:
+  find_type_sparql的输出的sparql的文件在yago2数据集上执行完之后输出的csv文件
+  argv[2]:
+  中间格式规范完的文件
+  argv[3]:
+  同原来的ranked_same_type_i.txt
+
+
+  
